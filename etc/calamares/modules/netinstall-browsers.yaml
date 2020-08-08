@@ -1,0 +1,64 @@
+# Example configuration with groups and packages, taken from Chakra Linux.
+#
+# This example is rather limited. See `netinstall.conf` for full documentation
+# on the configuration format. The module configuration file `netinstall.conf`
+# **may** contain the package-list, but that is only useful for static
+# package-lists. If you are updating the package lists or changing the package
+# offerings, an online `netinstall.yaml` is the way to go; or you can put the
+# `netinstall.yaml` on the installation media and modify that, while keeping
+# your Calamares configuration constant.
+#
+# Which approach works depends on what you want to offer and how your
+# ISO-image toolchain works.
+
+- name: "Browsers"
+  description: "Browsers"
+  hidden: false
+  selected: false
+  critical: false
+  expanded: true
+  packages:
+    - chromium
+    - falkon
+    - firefox
+    - midori
+    - min
+    - netsurf
+    - opera
+    - qutebrowser
+    - torbrowser-launcher
+
+#- name: "Default"
+#  description: "Default group"
+#  hidden: true
+#  selected: true
+#  critical: false
+#  packages:
+#    - base
+#    - chakra-live-skel
+#    - cdemu-client
+#    - lsb-release
+#    - avahi
+#    - grub
+#    # disk utils
+#    - dosfstools
+#    - e2fsprogs
+#    - fuse
+#    - gptfdisk
+#    - jfsutils
+#    - ntfs-3g
+#    - reiserfsprogs
+#    - xfsprogs
+#    # power
+#    - acpi_call
+#    - pmtools
+#    # network
+#    - dnsutils
+#    - iputils
+#    - netcfg
+#    - xinetd
+#    # firmwares
+#    - alsa-firmware
+#    - linux-firmware
+#    # sound
+#  
