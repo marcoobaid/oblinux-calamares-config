@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: no
+# SPDX-License-Identifier: CC0-1.0
+#
 # Product branding information. This influences some global
 # user-visible aspects of Calamares, such as the product
 # name, window behavior, and the slideshow during installation.
@@ -118,12 +121,12 @@ navigation: widget
 # are visible as buttons there if the corresponding *show* keys
 # are set to "true" (they can also be overridden).
 strings:
-    productName:         OBLinux
+    productName:         "@{NAME}"
     shortProductName:    Generic
-    version:             2020.09.10
-    shortVersion:        2020.09
-    versionedName:       OBLinux
-    #shortVersionedName:  FancyGL 2020.2
+    version:             2020.2 LTS
+    shortVersion:        2020.2
+    versionedName:       Fancy GNU/Linux 2020.2 LTS "Turgid Tuba"
+    shortVersionedName:  FancyGL 2020.2
     bootloaderEntryName: FancyGL
     productUrl:          https://calamares.io/
     supportUrl:          https://github.com/calamares/calamares/issues
