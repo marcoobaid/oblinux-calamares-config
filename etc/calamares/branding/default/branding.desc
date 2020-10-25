@@ -92,11 +92,11 @@ navigation: widget
 # are visible as buttons there if the corresponding *show* keys
 # are set to "true" (they can also be overridden).
 strings:
-    productName:         OBLinux
+    productName:         Carli
     shortProductName:    Generic
-    version:             2020.11.1
-    shortVersion:        2020.11
-    versionedName:       OBLinux
+    version:             2020.3.1
+    shortVersion:        2020.3
+    versionedName:       Carli
     #shortVersionedName:  Generic 2017.8
     bootloaderEntryName: Generic
     productUrl:          https://calamares.io/
