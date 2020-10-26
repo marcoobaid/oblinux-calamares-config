@@ -1,1 +1,1 @@
-# Carli Calamares config
+# OBLinux Calamares Config 
